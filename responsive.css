@@ -1,0 +1,29 @@
+/* Responsive Tablet */
+
+@media (max-width: 1024px) {
+    .flex-list {
+        flex-wrap: wrap;
+    }
+}
+
+.flex-list li {
+    width: 50%;
+    height: 400px;
+}
+
+.foot-notes {
+    height: 500px;
+}
+
+footer {
+    height: 1100px;
+}
+
+.fa-searchs {
+    visibility: hidden;
+}
+
+.search {
+    visibility: hidden;
+    position: absolute;
+}
